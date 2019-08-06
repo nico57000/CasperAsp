@@ -1,0 +1,62 @@
+﻿html, body {
+    height: 100%;
+}
+
+.global-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("http://iwallpapers2.free.fr/images/Photographie/Black_Collection/Fibre_optique_-_1920x1080.jpg") center no-repeat;
+    background-size: cover;
+}
+
+form {
+    padding-top: 10px;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.card-title {
+    font-weight: 300;
+}
+
+.btn {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+#log{
+    display:flex;
+    width:500px;
+    padding:100px;
+    background-color:lightgray;
+}
+.login-form {
+    display:flex;
+    justify-content:space-around;
+    width: 330px;
+    margin-left: 20px;
+}
+
+
+.sign-up {
+    text-align: center;
+    padding: 20px 0 0;
+}
+
+.alert {
+    margin-bottom: -30px;
+    font-size: 13px;
+    margin-top: 20px;
+}
+#bouton{
+    margin-top:30px;
+    margin-left:30%;
+}
+.formproj{
+    margin-left:35%!important;
+}
+#sel{
+    margin-left:35%;
+}

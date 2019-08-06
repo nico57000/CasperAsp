@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "SelectProjets";
+    Layout = null;
+}
+
+@model CasperAsp.Models.Projet
+
+
+<head>
+    <link rel="stylesheet" type="text/css" href="~/Content/login.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/bootstrap.css" />
+</head>
+
+<body style="background-image:url(https://image.noelshack.com/fichiers/2019/32/2/1565079763-fondprojets.png)">
+        <form action="@Url.Action("Index","Dashboard")" id="formproj" name="formprojet" method="post" style="width:80%; margin-left:15%; margin-top:200px">
+            <select id="sel" style="margin-left:25%; margin-bottom:50px ; width:40%; background-color:darkgray; height:40px">
+                @foreach (var item in TempData.Keys)
+                {
+                    <option>@TempData[item]</option>
+                }
+            </select>
+            <br />
+            <input style="margin-left:30%; width:30%" type="submit" value="choix" id="boutonchoix; height:40px" />
+        </form>
+
+</body>
